@@ -1,16 +1,51 @@
-.Column1 {
+.Column {
   background-color: yellow;
-  padding: 20px;
-  width: 30%;
+  float: left;
+  width: 15%;
+  height: 500px;
 }
 
-.Column2 {
+.Middle {
   background-color: blue;
+  color: white;
+  float: left;
+  width: 70%;
+  height: 500px;
+}
+
+.Right {
+  background-color: #a6f0c6;
+  float: left;
+  width: 15%;
+  height: 500px;
+}
+
+.header {
+  background-color: #51c2d5;
+  color: white;
+  margin: 0;
+  width:100%;
+  height: 50px;
   padding: 50px;
 }
 
-.Column3 {
-  background-color: yellow;
-  padding: 20px;
-  width: 30%;
+body{
+  margin: 0;
+}
+
+footer{
+  background-color: green;
+}
+
+footer p {
+  padding: 10px;
+}
+
+p{
+  padding: 50px;
+  margin: 0;
+}
+
+ul{
+  padding: 50px;
 }
