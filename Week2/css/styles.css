@@ -1,0 +1,19 @@
+.Column1 {
+  background-color: #98ded9;
+
+  padding: 20px;
+}
+
+.Column2 {
+  background-color: #f9f871;
+
+  padding: 20px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+p{
+  font-size: 15px;
+}

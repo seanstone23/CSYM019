@@ -1,0 +1,16 @@
+.Column1 {
+  background-color: yellow;
+  padding: 20px;
+  width: 30%;
+}
+
+.Column2 {
+  background-color: blue;
+  padding: 50px;
+}
+
+.Column3 {
+  background-color: yellow;
+  padding: 20px;
+  width: 30%;
+}
