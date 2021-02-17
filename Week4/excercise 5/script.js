@@ -10,10 +10,10 @@ function clickPara(){
 
 function loadFunction(){
   var element = document.getElementById('myTitle');
-  element.addEventListener('click', clickTitle);
+  element.addEventListener('mouseenter', clickTitle);
 
   var element = document.getElementById('myPara');
-  element.addEventListener('click', clickPara);
+  element.addEventListener('mouseleave', clickPara);
 }
 
 document.addEventListener('DOMContentLoaded', loadFunction);
