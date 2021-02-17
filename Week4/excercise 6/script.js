@@ -1,6 +1,7 @@
 function inputFunction(){
   var element = document.getElementById('myInput');
-  alert(element.value);
+  var div = document.getElementById('content');
+  div.firstChild.nodeValue = element.value;
 }
 
 function loadFunction(){
