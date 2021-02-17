@@ -1,10 +1,9 @@
-function print5(){
-  console.log(1);
-  console.log(2);
-  console.log(3);
-  console.log(4);
-  console.log(5);
+function loadFunction(){
+var element = document.getElementById('myTitle');
+element.firstChild.nodeValue = 'New Heading';
+
+var element = document.getElementById('myPara');
+element.firstChild.nodeValue = 'New Paragraph';
 }
 
-print5();
-print5();
+document.addEventListener('DOMContentLoaded', loadFunction);
