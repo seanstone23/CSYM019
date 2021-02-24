@@ -46,15 +46,17 @@ function myLoadEvent() {
 function changeContent() {
   var element = document.getElementById("circle");
   element.firstChild.nodeValue = "Clicked";
-  alert("The button was clicked");
+  //alert("The button was clicked");
   element.style.backgroundColor = "blue";
-  element.style.opacity = 1;
+  var circleOpacity = parseFloat(element.style.opacity);
+  element.style.opacity = circleOpacity - 0.1;
 }
 
 function myClickCircleEvent() {
   var element = document.getElementById("circle");
   element.addEventListener("click", changeContent);
   element.style.opacity = 0.5;
+
 }
 
 
