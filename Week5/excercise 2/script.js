@@ -41,6 +41,7 @@ function myKeyDown(event) {
 
 function myLoadEvent() {
   document.addEventListener('keydown', myKeyDown);
+    var element = document.getElementById("circle");
 }
 
 function changeContent() {
