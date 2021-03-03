@@ -24,6 +24,7 @@ var chartType = 'pie';
                bottom: 0
            }
          }
+
    };
 
 var chart = new Chart(element, {type: chartType, data: chartData, options: chartOptions});
