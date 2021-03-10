@@ -1,0 +1,42 @@
+{
+  "sightings": [{
+      "id": 1,
+      "animal": "Pine Martin",
+      "number": 4,
+      "location": "Marshall Woods, Reneham",
+      "date": "2015-09-24",
+      "time": "09:30:00",
+      "observer": {
+        "name": "Gregory Dimitradis",
+        "email": "gdim@yahoo.com"
+      },
+      "observations": "Four pine martins. 1 adult. 3 juvenilles. In wooded area. Adult appeared to be mother. Foraging for food."
+    },
+    {
+      "id": 2,
+      "animal": "Hare",
+      "number": 2,
+      "location": "Hare Mountain, Hareville",
+      "date": "2015-11-12",
+      "time": "11:30:00",
+      "observer": {
+        "name": "Samuel Rabbit",
+        "email": "sam.rabbit@gmail.com"
+      },
+      "observations": "2 hares, both adults. Sitting half way up mountain. In a resting state."
+    },
+    {
+      "id": 3,
+      "animal": "Snowy Owl",
+      "number": 1,
+      "location": "25 West Town Road, Old Town",
+      "date": "2016-06-10",
+      "time": "09:00:00",
+      "observer": {
+        "name": "George McDowell",
+        "email": "GeorgeMCD@gmail.com"
+      },
+      "observations": "One snowy owl. Making nest in attic of 25 west town road. Protecting nest."
+    }
+  ]
+}
